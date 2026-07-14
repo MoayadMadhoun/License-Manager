@@ -1,0 +1,262 @@
+2026-05-26 00:56:51.852 +03:00 [INF] Starting the application...
+2026-05-26 00:56:52.772 +03:00 [INF] Now listening on: https://localhost:7141
+2026-05-26 00:56:52.781 +03:00 [INF] Now listening on: http://localhost:5016
+2026-05-26 00:56:52.811 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2026-05-26 00:56:53.528 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-26 00:56:53.533 +03:00 [INF] Hosting environment: Development
+2026-05-26 00:56:53.548 +03:00 [INF] Content root path: D:\Moayad Al-Madhoun\GTC\Secound Year\SS\WD2\LicenseManagerMinimalAPI
+2026-05-26 00:56:54.303 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - null null
+2026-05-26 00:56:54.972 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - 200 null text/html;charset=utf-8 669.1724ms
+2026-05-26 00:56:55.171 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-26 00:56:55.171 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - null null
+2026-05-26 00:56:55.191 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - 200 16533 application/javascript; charset=utf-8 19.7058ms
+2026-05-26 00:56:55.407 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - 200 null text/javascript; charset=UTF-8 235.5371ms
+2026-05-26 00:56:55.503 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - null null
+2026-05-26 00:56:55.541 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 38.3065ms
+2026-05-26 00:57:55.737 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/license/55 - null null
+2026-05-26 00:57:55.782 +03:00 [INF] Executing endpoint 'HTTP: GET /license/{id}'
+2026-05-26 00:57:57.827 +03:00 [INF] Executed endpoint 'HTTP: GET /license/{id}'
+2026-05-26 00:57:57.838 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/license/55 - 200 null application/json; charset=utf-8 2101.0866ms
+2026-05-26 00:58:52.621 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7141/license?id=22 - application/json 124
+2026-05-26 00:58:52.644 +03:00 [INF] Executing endpoint 'HTTP: PUT /license'
+2026-05-26 00:58:52.803 +03:00 [INF] Setting HTTP status code 404.
+2026-05-26 00:58:52.806 +03:00 [INF] Executed endpoint 'HTTP: PUT /license'
+2026-05-26 00:58:52.832 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7141/license?id=22 - 404 null application/problem+json 210.6956ms
+2026-05-26 00:59:23.657 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/license - null null
+2026-05-26 00:59:23.739 +03:00 [INF] Executing endpoint 'HTTP: GET /license'
+2026-05-26 00:59:23.835 +03:00 [INF] Executed endpoint 'HTTP: GET /license'
+2026-05-26 00:59:23.839 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/license - 200 null application/json; charset=utf-8 181.7953ms
+2026-05-26 00:59:24.083 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/favicon.ico - null null
+2026-05-26 00:59:24.093 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/favicon.ico - 404 null application/problem+json 9.8351ms
+2026-05-26 00:59:24.104 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7141/favicon.ico, Response status code: 404
+2026-05-26 01:09:35.899 +03:00 [INF] Starting the application...
+2026-05-26 01:09:36.860 +03:00 [INF] Now listening on: https://localhost:7141
+2026-05-26 01:09:36.869 +03:00 [INF] Now listening on: http://localhost:5016
+2026-05-26 01:09:36.894 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2026-05-26 01:09:37.715 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - null null
+2026-05-26 01:09:37.834 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-26 01:09:37.843 +03:00 [INF] Hosting environment: Development
+2026-05-26 01:09:37.849 +03:00 [INF] Content root path: D:\Moayad Al-Madhoun\GTC\Secound Year\SS\WD2\LicenseManagerMinimalAPI
+2026-05-26 01:09:38.358 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - 200 null text/html;charset=utf-8 646.7794ms
+2026-05-26 01:09:38.463 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-26 01:09:38.463 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - null null
+2026-05-26 01:09:38.481 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - 200 16533 application/javascript; charset=utf-8 17.8056ms
+2026-05-26 01:09:38.562 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - 200 null text/javascript; charset=UTF-8 99.5949ms
+2026-05-26 01:09:38.604 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - null null
+2026-05-26 01:09:38.641 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 37.8092ms
+2026-05-26 18:01:49.025 +03:00 [INF] Starting the application...
+2026-05-26 18:01:49.780 +03:00 [INF] Now listening on: https://localhost:7141
+2026-05-26 18:01:49.788 +03:00 [INF] Now listening on: http://localhost:5016
+2026-05-26 18:01:49.819 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2026-05-26 18:01:50.569 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-26 18:01:50.575 +03:00 [INF] Hosting environment: Development
+2026-05-26 18:01:50.578 +03:00 [INF] Content root path: D:\Moayad Al-Madhoun\GTC\Secound Year\SS\WD2\LicenseManagerMinimalAPI
+2026-05-26 18:01:51.220 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - null null
+2026-05-26 18:01:51.952 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - 200 null text/html;charset=utf-8 734.1322ms
+2026-05-26 18:01:52.133 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-26 18:01:52.133 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - null null
+2026-05-26 18:01:52.154 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - 200 16533 application/javascript; charset=utf-8 21.106ms
+2026-05-26 18:01:52.599 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - 200 null text/javascript; charset=UTF-8 466.4223ms
+2026-05-26 18:01:52.652 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - null null
+2026-05-26 18:01:52.692 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.7711ms
+2026-05-26 18:02:27.226 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/licenser/error - null null
+2026-05-26 18:02:27.327 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/licenser/error - 404 null application/problem+json 100.7783ms
+2026-05-26 18:02:27.380 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7141/swagger/licenser/error, Response status code: 404
+2026-05-26 18:02:27.416 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/favicon.ico - null null
+2026-05-26 18:02:27.425 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/favicon.ico - 404 null application/problem+json 9.3695ms
+2026-05-26 18:02:27.434 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7141/favicon.ico, Response status code: 404
+2026-05-26 18:02:59.977 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-26 18:02:59.996 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - 200 16533 application/javascript; charset=utf-8 16.519ms
+2026-05-26 18:03:00.065 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - null null
+2026-05-26 18:03:00.085 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.4685ms
+2026-05-26 18:03:27.141 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/license/error - null null
+2026-05-26 18:03:27.174 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/license/error - 404 null application/problem+json 35.7226ms
+2026-05-26 18:03:27.215 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7141/swagger/license/error, Response status code: 404
+2026-05-26 18:26:38.289 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-05-26 18:26:38.340 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-05-26 18:26:38.342 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-05-26 18:26:38.342 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-05-26 18:26:38.361 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-05-26 18:26:38.370 +03:00 [INF] Applying migration '20260526152627_init'.
+2026-05-26 18:26:38.410 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Licences] (
+    [Id] int NOT NULL IDENTITY,
+    [UserNmae] nvarchar(100) NOT NULL,
+    [Key] nvarchar(20) NOT NULL,
+    [IsActive] bit NOT NULL,
+    [CreateDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Licences] PRIMARY KEY ([Id])
+);
+2026-05-26 18:26:38.442 +03:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20260526152627_init', N'8.0.0');
+2026-05-26 18:26:53.185 +03:00 [INF] Starting the application...
+2026-05-26 18:26:53.833 +03:00 [INF] Now listening on: https://localhost:7141
+2026-05-26 18:26:53.843 +03:00 [INF] Now listening on: http://localhost:5016
+2026-05-26 18:26:53.875 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2026-05-26 18:26:54.567 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-26 18:26:54.572 +03:00 [INF] Hosting environment: Development
+2026-05-26 18:26:54.579 +03:00 [INF] Content root path: D:\Moayad Al-Madhoun\GTC\Secound Year\SS\WD2\LicenseManagerMinimalAPI
+2026-05-26 18:26:54.802 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - null null
+2026-05-26 18:26:55.515 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-26 18:26:55.517 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - 200 null text/html;charset=utf-8 717.0435ms
+2026-05-26 18:26:55.534 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - 200 16533 application/javascript; charset=utf-8 19.1439ms
+2026-05-26 18:26:55.613 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - null null
+2026-05-26 18:26:55.759 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - 200 null text/javascript; charset=UTF-8 146.4905ms
+2026-05-26 18:26:55.811 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - null null
+2026-05-26 18:26:55.857 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 45.9332ms
+2026-05-26 18:28:12.515 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-05-26 18:28:12.553 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-05-26 18:28:12.555 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-05-26 18:28:12.604 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2026-05-26 18:28:12.605 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-05-26 18:28:12.607 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-05-26 18:28:12.618 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-05-26 18:28:12.628 +03:00 [INF] Applying migration '20260526152627_init'.
+2026-05-26 18:28:12.648 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Licences] (
+    [Id] int NOT NULL IDENTITY,
+    [UserNmae] nvarchar(100) NOT NULL,
+    [Key] nvarchar(20) NOT NULL,
+    [IsActive] bit NOT NULL,
+    [CreateDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Licences] PRIMARY KEY ([Id])
+);
+2026-05-26 18:28:12.650 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20260526152627_init', N'8.0.0');
+2026-05-26 18:29:05.946 +03:00 [INF] Starting the application...
+2026-05-26 18:29:06.280 +03:00 [INF] Now listening on: https://localhost:7141
+2026-05-26 18:29:06.289 +03:00 [INF] Now listening on: http://localhost:5016
+2026-05-26 18:29:06.309 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2026-05-26 18:29:06.536 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-26 18:29:06.538 +03:00 [INF] Hosting environment: Development
+2026-05-26 18:29:06.540 +03:00 [INF] Content root path: D:\Moayad Al-Madhoun\GTC\Secound Year\SS\WD2\LicenseManagerMinimalAPI
+2026-05-26 18:29:07.241 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - null null
+2026-05-26 18:29:07.832 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - 200 null text/html;charset=utf-8 594.5609ms
+2026-05-26 18:29:07.846 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-26 18:29:07.866 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - 200 16533 application/javascript; charset=utf-8 20.1174ms
+2026-05-26 18:29:07.954 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - null null
+2026-05-26 18:29:08.051 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - 200 null text/javascript; charset=UTF-8 97.4258ms
+2026-05-26 18:29:08.110 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - null null
+2026-05-26 18:29:08.151 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 40.7387ms
+2026-05-26 22:30:59.382 +03:00 [INF] Starting the application...
+2026-05-26 22:31:00.344 +03:00 [INF] Now listening on: https://localhost:7141
+2026-05-26 22:31:00.354 +03:00 [INF] Now listening on: http://localhost:5016
+2026-05-26 22:31:00.389 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2026-05-26 22:31:01.131 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-26 22:31:01.134 +03:00 [INF] Hosting environment: Development
+2026-05-26 22:31:01.138 +03:00 [INF] Content root path: D:\Moayad Al-Madhoun\GTC\Secound Year\SS\WD2\LicenseManagerMinimalAPI
+2026-05-26 22:31:01.866 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - null null
+2026-05-26 22:31:02.489 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - 200 null text/html;charset=utf-8 626.9397ms
+2026-05-26 22:31:02.697 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-26 22:31:02.697 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - null null
+2026-05-26 22:31:02.721 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - 200 16533 application/javascript; charset=utf-8 23.4586ms
+2026-05-26 22:31:02.857 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - 200 null text/javascript; charset=UTF-8 159.8054ms
+2026-05-26 22:31:02.900 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - null null
+2026-05-26 22:31:02.947 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 46.3843ms
+2026-05-26 22:31:26.831 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/license - null null
+2026-05-26 22:31:26.877 +03:00 [INF] Executing endpoint 'HTTP: GET /license'
+2026-05-26 22:31:28.550 +03:00 [INF] Getting all licenses
+2026-05-26 22:31:30.281 +03:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[CreateDate], [l].[IsActive], [l].[Key], [l].[UserNmae]
+FROM [Licences] AS [l]
+2026-05-26 22:31:30.315 +03:00 [INF] Executed endpoint 'HTTP: GET /license'
+2026-05-26 22:31:30.336 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/license - 200 null application/json; charset=utf-8 3504.5506ms
+2026-05-26 22:32:41.669 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/license/1 - null null
+2026-05-26 22:32:41.712 +03:00 [INF] Executing endpoint 'HTTP: GET /license/{id}'
+2026-05-26 22:32:42.030 +03:00 [INF] Executed DbCommand (32ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[CreateDate], [l].[IsActive], [l].[Key], [l].[UserNmae]
+FROM [Licences] AS [l]
+WHERE [l].[Id] = @__id_0
+2026-05-26 22:32:42.042 +03:00 [INF] Executed endpoint 'HTTP: GET /license/{id}'
+2026-05-26 22:32:42.046 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/license/1 - 200 null application/json; charset=utf-8 376.3476ms
+2026-05-26 22:33:57.051 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/license/search?key=jj - null null
+2026-05-26 22:33:57.079 +03:00 [INF] Executing endpoint 'HTTP: GET /license/search'
+2026-05-26 22:33:57.154 +03:00 [INF] Searching for license with key: jj
+2026-05-26 22:33:57.350 +03:00 [INF] Executed DbCommand (16ms) [Parameters=[@__key_0='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[CreateDate], [l].[IsActive], [l].[Key], [l].[UserNmae]
+FROM [Licences] AS [l]
+WHERE [l].[Key] = @__key_0
+2026-05-26 22:33:57.377 +03:00 [WRN] License not found with key: jj
+2026-05-26 22:33:57.396 +03:00 [INF] Setting HTTP status code 404.
+2026-05-26 22:33:57.424 +03:00 [INF] Executed endpoint 'HTTP: GET /license/search'
+2026-05-26 22:33:57.429 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/license/search?key=jj - 404 null application/problem+json 377.6292ms
+2026-05-26 22:34:30.641 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/license/error - null null
+2026-05-26 22:34:30.660 +03:00 [INF] Executing endpoint 'HTTP: GET /license/error'
+2026-05-26 22:34:30.803 +03:00 [ERR] An error occurred while accessing the database
+System.Exception: Database Erorr
+   at LicenseManagerMinimalAPI.Program.<>c.<Main>b__0_1() in D:\Moayad Al-Madhoun\GTC\Secound Year\SS\WD2\LicenseManagerMinimalAPI\Program.cs:line 75
+2026-05-26 22:34:30.915 +03:00 [INF] Setting HTTP status code 500.
+2026-05-26 22:34:30.922 +03:00 [INF] Executed endpoint 'HTTP: GET /license/error'
+2026-05-26 22:34:30.928 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/license/error - 500 null application/problem+json 285.7916ms
+2026-05-26 22:44:47.103 +03:00 [INF] Starting the application...
+2026-05-26 22:44:47.470 +03:00 [INF] Now listening on: https://localhost:7141
+2026-05-26 22:44:47.474 +03:00 [INF] Now listening on: http://localhost:5016
+2026-05-26 22:44:47.490 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2026-05-26 22:44:47.695 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-26 22:44:47.696 +03:00 [INF] Hosting environment: Development
+2026-05-26 22:44:47.699 +03:00 [INF] Content root path: D:\Moayad Al-Madhoun\GTC\Secound Year\SS\WD2\LicenseManagerMinimalAPI
+2026-05-26 22:44:49.054 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - null null
+2026-05-26 22:44:49.597 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - 200 null text/html;charset=utf-8 548.0359ms
+2026-05-26 22:44:49.757 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - null null
+2026-05-26 22:44:49.757 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - null null
+2026-05-26 22:44:49.797 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - 200 16533 application/javascript; charset=utf-8 40.0869ms
+2026-05-26 22:44:49.857 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - 200 null text/javascript; charset=UTF-8 100.083ms
+2026-05-26 22:44:49.909 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - null null
+2026-05-26 22:44:49.949 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 40.6289ms
+2026-05-26 22:45:32.614 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/license - null null
+2026-05-26 22:45:32.665 +03:00 [INF] Executing endpoint 'HTTP: GET /license'
+2026-05-26 22:45:33.131 +03:00 [INF] Getting all licenses
+2026-05-26 22:45:35.234 +03:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[CreateDate], [l].[IsActive], [l].[Key], [l].[UserNmae]
+FROM [Licences] AS [l]
+2026-05-26 22:45:35.278 +03:00 [INF] Executed endpoint 'HTTP: GET /license'
+2026-05-26 22:45:35.305 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/license - 200 null application/json; charset=utf-8 2691.7979ms
+2026-05-26 22:45:37.342 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/license - null null
+2026-05-26 22:45:37.354 +03:00 [INF] Executing endpoint 'HTTP: GET /license'
+2026-05-26 22:45:37.364 +03:00 [INF] Getting all licenses
+2026-05-26 22:45:37.410 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[CreateDate], [l].[IsActive], [l].[Key], [l].[UserNmae]
+FROM [Licences] AS [l]
+2026-05-26 22:45:37.416 +03:00 [INF] Executed endpoint 'HTTP: GET /license'
+2026-05-26 22:45:37.421 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/license - 200 null application/json; charset=utf-8 78.4323ms
+2026-05-26 22:46:49.722 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/license/search?key=jbjbj - null null
+2026-05-26 22:46:49.744 +03:00 [INF] Executing endpoint 'HTTP: GET /license/search'
+2026-05-26 22:46:49.837 +03:00 [INF] Searching for license with key: jbjbj
+2026-05-26 22:46:50.294 +03:00 [INF] Executed DbCommand (38ms) [Parameters=[@__key_0='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[CreateDate], [l].[IsActive], [l].[Key], [l].[UserNmae]
+FROM [Licences] AS [l]
+WHERE [l].[Key] = @__key_0
+2026-05-26 22:46:50.302 +03:00 [WRN] License not found with key: jbjbj
+2026-05-26 22:46:50.325 +03:00 [INF] Setting HTTP status code 404.
+2026-05-26 22:46:50.365 +03:00 [INF] Executed endpoint 'HTTP: GET /license/search'
+2026-05-26 22:46:50.372 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/license/search?key=jbjbj - 404 null application/problem+json 649.856ms
+2026-05-26 22:47:40.408 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7141/license/error - null null
+2026-05-26 22:47:40.435 +03:00 [INF] Executing endpoint 'HTTP: GET /license/error'
+2026-05-26 22:47:40.589 +03:00 [ERR] An error occurred while accessing the database
+System.Exception: Database Erorr
+   at LicenseManagerMinimalAPI.Program.<>c.<Main>b__0_1() in D:\Moayad Al-Madhoun\GTC\Secound Year\SS\WD2\LicenseManagerMinimalAPI\Program.cs:line 75
+2026-05-26 22:47:40.670 +03:00 [INF] Setting HTTP status code 500.
+2026-05-26 22:47:40.674 +03:00 [INF] Executed endpoint 'HTTP: GET /license/error'
+2026-05-26 22:47:40.699 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7141/license/error - 500 null application/problem+json 292.3587ms
